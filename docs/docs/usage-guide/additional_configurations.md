@@ -30,8 +30,8 @@ This mode provides a very good speed-quality-cost tradeoff, and can handle most 
 When the PR is above the token limit, it employs a [PR Compression strategy](../core-abilities/index.md).
 
 However, for very large PRs, or in case you want to emphasize quality over speed and cost, there are two possible solutions:
-1) [Use a model](https://khulnasoft.github.io/Docs-PR-Assistant/usage-guide/#changing-a-model) with larger context, like GPT-32K, or claude-100K. This solution will be applicable for all the tools.
-2) For the `/improve` tool, there is an ['extended' mode](https://khulnasoft.github.io/Docs-PR-Assistant/tools/#improve) (`/improve --extended`),
+1) [Use a model](https://pr-assistant.github.io/Docs-PR-Assistant/usage-guide/#changing-a-model) with larger context, like GPT-32K, or claude-100K. This solution will be applicable for all the tools.
+2) For the `/improve` tool, there is an ['extended' mode](https://pr-assistant.github.io/Docs-PR-Assistant/tools/#improve) (`/improve --extended`),
 which divides the PR to chunks, and processes each chunk separately. With this mode, regardless of the model, no compression will be done (but for large PRs, multiple model calls may occur)
 
 

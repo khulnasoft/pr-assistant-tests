@@ -1,7 +1,7 @@
 The different tools and sub-tools used by KhulnaSoft PR-Assistant are adjustable via the **[configuration file](https://github.com/khulnasoft/pr-assistant/blob/main/pr_assistant/settings/configuration.toml)**.
 
 In addition to general configuration options, each tool has its own configurations. For example, the `review` tool will use parameters from the [pr_reviewer](https://github.com/khulnasoft/pr-assistant/blob/main/pr_assistant/settings/configuration.toml#L16) section in the configuration file.
-See the [Tools Guide](https://khulnasoft.github.io/Docs-PR-Assistant/tools/) for a detailed description of the different tools and their configurations.
+See the [Tools Guide](https://pr-assistant.github.io/Docs-PR-Assistant/tools/) for a detailed description of the different tools and their configurations.
 
 There are three ways to set persistent configurations:
 

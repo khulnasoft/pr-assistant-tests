@@ -15,7 +15,7 @@ KhulnaSoft PR-Assistant aims to help efficiently review and handle pull requests
 
 [![GitHub license](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/khulnasoft/pr-assistant/blob/main/LICENSE)
 [![Static Badge](https://img.shields.io/badge/Chrome-Extension-violet)](https://chromewebstore.google.com/detail/pr-assistant-chrome-extension/ephlnjeghhogofkifjloamocljapahnl)
-[![Static Badge](https://img.shields.io/badge/Code-Benchmark-blue)](https://pr-assistant-docs.khulnasoft.com/finetuning_benchmark/)
+[![Static Badge](https://img.shields.io/badge/Code-Benchmark-blue)](https://pr-assistant.github.io/finetuning_benchmark/)
 [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label&color=purple)](https://discord.com/channels/1057273017547378788/1126104260430528613)
 [![Twitter](https://img.shields.io/twitter/follow/khulnasoft)](https://twitter.com/khulnasoft)
     <a href="https://github.com/khulnasoft/pr-assistant/commits/main">
@@ -23,12 +23,12 @@ KhulnaSoft PR-Assistant aims to help efficiently review and handle pull requests
     </a>
 </div>
 
-### [Documentation](https://pr-assistant-docs.khulnasoft.com/)
-- See the [Installation Guide](https://pr-assistant-docs.khulnasoft.com/installation/) for instructions on installing PR-Assistant on different platforms.
+### [Documentation](https://pr-assistant.github.io/)
+- See the [Installation Guide](https://pr-assistant.github.io/installation/) for instructions on installing PR-Assistant on different platforms.
 
-- See the [Usage Guide](https://pr-assistant-docs.khulnasoft.com/usage-guide/) for instructions on running PR-Assistant tools via different interfaces, such as CLI, PR Comments, or by automatically triggering them when a new PR is opened.
+- See the [Usage Guide](https://pr-assistant.github.io/usage-guide/) for instructions on running PR-Assistant tools via different interfaces, such as CLI, PR Comments, or by automatically triggering them when a new PR is opened.
 
-- See the [Tools Guide](https://pr-assistant-docs.khulnasoft.com/tools/) for a detailed description of the different tools, and the available configurations for each tool.
+- See the [Tools Guide](https://pr-assistant.github.io/tools/) for a detailed description of the different tools, and the available configurations for each tool.
 
 
 ## Table of Contents
@@ -56,7 +56,7 @@ New option now available (💎) - **apply suggestions**:
 
 ### May 31, 2024
 
-Check out the new [**PR-Assistant Code Fine-tuning Benchmark**](https://pr-assistant-docs.khulnasoft.com/finetuning_benchmark/)
+Check out the new [**PR-Assistant Code Fine-tuning Benchmark**](https://pr-assistant.github.io/finetuning_benchmark/)
 
 ### May 23, 2024
 
@@ -77,23 +77,23 @@ Supported commands per platform:
 |-------|---------------------------------------------------------------------------------------------------------|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
 | TOOLS | Review                                                                                                  | ✅ | ✅ | ✅ | ✅ |
 |       | ⮑ Incremental                                                                                           | ✅ |                    |                    |                    |
-|       | ⮑ [SOC2 Compliance](https://pr-assistant-docs.khulnasoft.com/tools/review/#soc2-ticket-compliance) 💎            | ✅ | ✅ | ✅ | ✅ |
+|       | ⮑ [SOC2 Compliance](https://pr-assistant.github.io/tools/review/#soc2-ticket-compliance) 💎            | ✅ | ✅ | ✅ | ✅ |
 |       | Describe                                                                                                | ✅ | ✅ | ✅ | ✅ |
-|       | ⮑ [Inline File Summary](https://pr-assistant-docs.khulnasoft.com/tools/describe#inline-file-summary) 💎          | ✅ |                    |                    |                    |
+|       | ⮑ [Inline File Summary](https://pr-assistant.github.io/tools/describe#inline-file-summary) 💎          | ✅ |                    |                    |                    |
 |       | Improve                                                                                                 | ✅ | ✅ | ✅ | ✅ |
 |       | ⮑ Extended                                                                                              | ✅ | ✅ | ✅ | ✅ |
 |       | Ask                                                                                                     | ✅ | ✅ | ✅ | ✅ |
-|       | ⮑ [Ask on code lines](https://pr-assistant-docs.khulnasoft.com/tools/ask#ask-lines)                              | ✅ | ✅ |                    |                    |
-|       | [Custom Prompt](https://pr-assistant-docs.khulnasoft.com/tools/custom_prompt/) 💎                                | ✅ | ✅ | ✅ | ✅ |
-|       | [Test](https://pr-assistant-docs.khulnasoft.com/tools/test/) 💎                                                  | ✅ | ✅ |                    | ✅ |
+|       | ⮑ [Ask on code lines](https://pr-assistant.github.io/tools/ask#ask-lines)                              | ✅ | ✅ |                    |                    |
+|       | [Custom Prompt](https://pr-assistant.github.io/tools/custom_prompt/) 💎                                | ✅ | ✅ | ✅ | ✅ |
+|       | [Test](https://pr-assistant.github.io/tools/test/) 💎                                                  | ✅ | ✅ |                    | ✅ |
 |       | Reflect and Review                                                                                      | ✅ | ✅ | ✅ | ✅ |
 |       | Update CHANGELOG.md                                                                                     | ✅ | ✅ | ✅ | ✅ |
 |       | Find Similar Issue                                                                                      | ✅ |                    |                    |                    |
-|       | [Add PR Documentation](https://pr-assistant-docs.khulnasoft.com/tools/documentation/) 💎                         | ✅ | ✅ |                   | ✅ |
-|       | [Custom Labels](https://pr-assistant-docs.khulnasoft.com/tools/custom_labels/) 💎                                | ✅ | ✅ |                    | ✅ |
-|       | [Analyze](https://pr-assistant-docs.khulnasoft.com/tools/analyze/) 💎                                            | ✅ | ✅ |                    | ✅ |
-|       | [CI Feedback](https://pr-assistant-docs.khulnasoft.com/tools/ci_feedback/) 💎                                    | ✅ |                    |                    |                    |
-|       | [Similar Code](https://pr-assistant-docs.khulnasoft.com/tools/similar_code/) 💎                                  | ✅ |                    |                    |                    |
+|       | [Add PR Documentation](https://pr-assistant.github.io/tools/documentation/) 💎                         | ✅ | ✅ |                   | ✅ |
+|       | [Custom Labels](https://pr-assistant.github.io/tools/custom_labels/) 💎                                | ✅ | ✅ |                    | ✅ |
+|       | [Analyze](https://pr-assistant.github.io/tools/analyze/) 💎                                            | ✅ | ✅ |                    | ✅ |
+|       | [CI Feedback](https://pr-assistant.github.io/tools/ci_feedback/) 💎                                    | ✅ |                    |                    |                    |
+|       | [Similar Code](https://pr-assistant.github.io/tools/similar_code/) 💎                                  | ✅ |                    |                    |                    |
 |       |                                                                                                         |                    |                    |                    |                    |
 | USAGE | CLI                                                                                                     | ✅ | ✅ | ✅ | ✅ |
 |       | App / webhook                                                                                           | ✅ | ✅ | ✅ | ✅ |
@@ -104,39 +104,39 @@ Supported commands per platform:
 |       | Repo language prioritization                                                                            | ✅ | ✅ | ✅ | ✅ |
 |       | Adaptive and token-aware file patch fitting                                                             | ✅ | ✅ | ✅ | ✅ |
 |       | Multiple models support                                                                                 | ✅ | ✅ | ✅ | ✅ |
-|       | [Static code analysis](https://pr-assistant-docs.khulnasoft.com/core-abilities/#static-code-analysis) 💎         | ✅ | ✅ | ✅ | ✅ |
-|       | [Global and wiki configurations](https://pr-assistant-docs.khulnasoft.com/usage-guide/configuration_options/) 💎 | ✅ | ✅ | ✅ | ✅ |
+|       | [Static code analysis](https://pr-assistant.github.io/core-abilities/#static-code-analysis) 💎         | ✅ | ✅ | ✅ | ✅ |
+|       | [Global and wiki configurations](https://pr-assistant.github.io/usage-guide/configuration_options/) 💎 | ✅ | ✅ | ✅ | ✅ |
 |       | [PR interactive actions](https://www.khulnasoft.com/images/pr_assistant/pr-actions.mp4) 💎                       | ✅ |                    |                    |                    |
 - 💎 means this feature is available only in [PR-Assistant Pro](https://www.khulnasoft.com/pricing/)
 
 [//]: # (- Support for additional git providers is described in [here]&#40;./docs/Full_environments.md&#41;)
 ___
 
-‣ **Auto Description ([`/describe`](https://pr-assistant-docs.khulnasoft.com/tools/describe/))**: Automatically generating PR description - title, type, summary, code walkthrough and labels.
+‣ **Auto Description ([`/describe`](https://pr-assistant.github.io/tools/describe/))**: Automatically generating PR description - title, type, summary, code walkthrough and labels.
 \
-‣ **Auto Review ([`/review`](https://pr-assistant-docs.khulnasoft.com/tools/review/))**: Adjustable feedback about the PR, possible issues, security concerns, review effort and more.
+‣ **Auto Review ([`/review`](https://pr-assistant.github.io/tools/review/))**: Adjustable feedback about the PR, possible issues, security concerns, review effort and more.
 \
-‣ **Code Suggestions ([`/improve`](https://pr-assistant-docs.khulnasoft.com/tools/improve/))**: Code suggestions for improving the PR.
+‣ **Code Suggestions ([`/improve`](https://pr-assistant.github.io/tools/improve/))**: Code suggestions for improving the PR.
 \
-‣ **Question Answering ([`/ask ...`](https://pr-assistant-docs.khulnasoft.com/tools/ask/))**: Answering free-text questions about the PR.
+‣ **Question Answering ([`/ask ...`](https://pr-assistant.github.io/tools/ask/))**: Answering free-text questions about the PR.
 \
-‣ **Update Changelog ([`/update_changelog`](https://pr-assistant-docs.khulnasoft.com/tools/update_changelog/))**: Automatically updating the CHANGELOG.md file with the PR changes.
+‣ **Update Changelog ([`/update_changelog`](https://pr-assistant.github.io/tools/update_changelog/))**: Automatically updating the CHANGELOG.md file with the PR changes.
 \
-‣ **Find Similar Issue ([`/similar_issue`](https://pr-assistant-docs.khulnasoft.com/tools/similar_issues/))**: Automatically retrieves and presents similar issues.
+‣ **Find Similar Issue ([`/similar_issue`](https://pr-assistant.github.io/tools/similar_issues/))**: Automatically retrieves and presents similar issues.
 \
-‣ **Add Documentation 💎  ([`/add_docs`](https://pr-assistant-docs.khulnasoft.com/tools/documentation/))**: Generates documentation to methods/functions/classes that changed in the PR.
+‣ **Add Documentation 💎  ([`/add_docs`](https://pr-assistant.github.io/tools/documentation/))**: Generates documentation to methods/functions/classes that changed in the PR.
 \
-‣ **Generate Custom Labels 💎 ([`/generate_labels`](https://pr-assistant-docs.khulnasoft.com/tools/custom_labels/))**: Generates custom labels for the PR, based on specific guidelines defined by the user.
+‣ **Generate Custom Labels 💎 ([`/generate_labels`](https://pr-assistant.github.io/tools/custom_labels/))**: Generates custom labels for the PR, based on specific guidelines defined by the user.
 \
-‣ **Analyze 💎 ([`/analyze`](https://pr-assistant-docs.khulnasoft.com/tools/analyze/))**: Identify code components that changed in the PR, and enables to interactively generate tests, docs, and code suggestions for each component.
+‣ **Analyze 💎 ([`/analyze`](https://pr-assistant.github.io/tools/analyze/))**: Identify code components that changed in the PR, and enables to interactively generate tests, docs, and code suggestions for each component.
 \
-‣ **Custom Prompt 💎 ([`/custom_prompt`](https://pr-assistant-docs.khulnasoft.com/tools/custom_prompt/))**: Automatically generates custom suggestions for improving the PR code, based on specific guidelines defined by the user.
+‣ **Custom Prompt 💎 ([`/custom_prompt`](https://pr-assistant.github.io/tools/custom_prompt/))**: Automatically generates custom suggestions for improving the PR code, based on specific guidelines defined by the user.
 \
-‣ **Generate Tests 💎 ([`/test component_name`](https://pr-assistant-docs.khulnasoft.com/tools/test/))**: Generates unit tests for a selected component, based on the PR code changes.
+‣ **Generate Tests 💎 ([`/test component_name`](https://pr-assistant.github.io/tools/test/))**: Generates unit tests for a selected component, based on the PR code changes.
 \
-‣ **CI Feedback 💎 ([`/checks ci_job`](https://pr-assistant-docs.khulnasoft.com/tools/ci_feedback/))**: Automatically generates feedback and analysis for a failed CI job.
+‣ **CI Feedback 💎 ([`/checks ci_job`](https://pr-assistant.github.io/tools/ci_feedback/))**: Automatically generates feedback and analysis for a failed CI job.
 \
-‣ **Similar Code 💎 ([`/find_similar_component`](https://pr-assistant-docs.khulnasoft.com/tools/similar_code/))**: Retrieves the most similar code components from inside the organization's codebase, or from open-source code.
+‣ **Similar Code 💎 ([`/find_similar_component`](https://pr-assistant.github.io/tools/similar_code/))**: Retrieves the most similar code components from inside the organization's codebase, or from open-source code.
 ___
 
 ## Example results
@@ -230,7 +230,7 @@ and the agent will respond with a review of your PR
 ![Review generation process](https://www.khulnasoft.com/images/demo-2.gif)
 
 
-To set up your own PR-Assistant, see the [Installation](https://pr-assistant-docs.khulnasoft.com/installation/) section below.
+To set up your own PR-Assistant, see the [Installation](https://pr-assistant.github.io/installation/) section below.
 Note that when you set your own PR-Assistant or use KhulnaSoft hosted PR-Assistant, there is no need to mention `@KhulnaSoft-Agent ...`. Instead, directly start with the command, e.g., `/ask ...`.
 
 ---
@@ -250,28 +250,28 @@ Note that when you set your own PR-Assistant or use KhulnaSoft hosted PR-Assista
 [//]: # ()
 [//]: # (**Locally**)
 
-[//]: # (- [Using pip package]&#40;https://pr-assistant-docs.khulnasoft.com/installation/locally/#using-pip-package&#41;)
+[//]: # (- [Using pip package]&#40;https://pr-assistant.github.io/installation/locally/#using-pip-package&#41;)
 
-[//]: # (- [Using Docker image]&#40;https://pr-assistant-docs.khulnasoft.com/installation/locally/#using-docker-image&#41;)
+[//]: # (- [Using Docker image]&#40;https://pr-assistant.github.io/installation/locally/#using-docker-image&#41;)
 
-[//]: # (- [Run from source]&#40;https://pr-assistant-docs.khulnasoft.com/installation/locally/#run-from-source&#41;)
+[//]: # (- [Run from source]&#40;https://pr-assistant.github.io/installation/locally/#run-from-source&#41;)
 
 [//]: # ()
 [//]: # (**GitHub specific methods**)
 
-[//]: # (- [Run as a GitHub Action]&#40;https://pr-assistant-docs.khulnasoft.com/installation/github/#run-as-a-github-action&#41;)
+[//]: # (- [Run as a GitHub Action]&#40;https://pr-assistant.github.io/installation/github/#run-as-a-github-action&#41;)
 
-[//]: # (- [Run as a GitHub App]&#40;https://pr-assistant-docs.khulnasoft.com/installation/github/#run-as-a-github-app&#41;)
+[//]: # (- [Run as a GitHub App]&#40;https://pr-assistant.github.io/installation/github/#run-as-a-github-app&#41;)
 
 [//]: # ()
 [//]: # (**GitLab specific methods**)
 
-[//]: # (- [Run a GitLab webhook server]&#40;https://pr-assistant-docs.khulnasoft.com/installation/gitlab/&#41;)
+[//]: # (- [Run a GitLab webhook server]&#40;https://pr-assistant.github.io/installation/gitlab/&#41;)
 
 [//]: # ()
 [//]: # (**BitBucket specific methods**)
 
-[//]: # (- [Run as a Bitbucket Pipeline]&#40;https://pr-assistant-docs.khulnasoft.com/installation/bitbucket/&#41;)
+[//]: # (- [Run as a Bitbucket Pipeline]&#40;https://pr-assistant.github.io/installation/bitbucket/&#41;)
 
 ## PR-Assistant Pro 💎
 [PR-Assistant Pro](https://www.khulnasoft.com/pricing/) is a hosted version of PR-Assistant, provided by KhulnaSoft. It is available for a monthly fee, and provides the following benefits:
@@ -279,7 +279,7 @@ Note that when you set your own PR-Assistant or use KhulnaSoft hosted PR-Assista
 2. **Improved privacy** - No data will be stored or used to train models. PR-Assistant Pro will employ zero data retention, and will use an OpenAI account with zero data retention.
 3. **Improved support** - PR-Assistant Pro users will receive priority support, and will be able to request new features and capabilities.
 4. **Extra features** -In addition to the benefits listed above, PR-Assistant Pro will emphasize more customization, and the usage of static code analysis, in addition to LLM logic, to improve results. 
-See [here](https://pr-assistant-docs.khulnasoft.com/#pr-assistant-pro) for a list of features available in PR-Assistant Pro.
+See [here](https://pr-assistant.github.io/#pr-assistant-pro) for a list of features available in PR-Assistant Pro.
 
 
 
@@ -289,7 +289,7 @@ The following diagram illustrates PR-Assistant tools and their flow:
 
 ![PR-Assistant Tools](https://khulnasoft.com/images/pr_assistant/diagram-v0.9.png)
 
-Check out the [PR Compression strategy](https://pr-assistant-docs.khulnasoft.com/core-abilities/#pr-compression-strategy) page for more details on how we convert a code diff to a manageable LLM prompt
+Check out the [PR Compression strategy](https://pr-assistant.github.io/core-abilities/#pr-compression-strategy) page for more details on how we convert a code diff to a manageable LLM prompt
 
 ## Why use PR-Assistant?
 
@@ -298,7 +298,7 @@ A reasonable question that can be asked is: `"Why use PR-Assistant? What makes i
 Here are some advantages of PR-Assistant:
 
 - We emphasize **real-life practical usage**. Each tool (review, improve, ask, ...) has a single GPT-4 call, no more. We feel that this is critical for realistic team usage - obtaining an answer quickly (~30 seconds) and affordably.
-- Our [PR Compression strategy](https://pr-assistant-docs.khulnasoft.com/core-abilities/#pr-compression-strategy)  is a core ability that enables to effectively tackle both short and long PRs.
+- Our [PR Compression strategy](https://pr-assistant.github.io/core-abilities/#pr-compression-strategy)  is a core ability that enables to effectively tackle both short and long PRs.
 - Our JSON prompting strategy enables to have **modular, customizable tools**. For example, the '/review' tool categories can be controlled via the [configuration](pr_assistant/settings/configuration.toml) file. Adding additional categories is easy and accessible.
 - We support **multiple git providers** (GitHub, Gitlab, Bitbucket), **multiple ways** to use the tool (CLI, GitHub Action, GitHub App, Docker, ...), and **multiple models** (GPT-4, GPT-3.5, Anthropic, Cohere, Llama2).
 
